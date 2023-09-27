@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors({
-    origin: ["https://feeds-fronted-saivaruns-projects.vercel.app/"],
+    origin: ["https://feeds-fronted.vercel.app/"],
     methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true
 }))
