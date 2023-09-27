@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors({
-    origin: [""],
+    origin: ["https://feeds-fronted.vercel.app/"],
     credentials: true
 }))
 
