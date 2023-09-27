@@ -18,6 +18,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors({
     origin: ["https://feeds-fronted-saivaruns-projects.vercel.app/"],
+    methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true
 }))
 
