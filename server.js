@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors({
-    origin: ["http://localhost:3000", "https://sales-app"],
+    origin: ["http://localhost:3000", "https://feeds-backend-99kh1q8pq-saivaruns-projects.vercel.app"],
     credentials: true
 }))
 
